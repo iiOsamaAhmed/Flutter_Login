@@ -117,17 +117,16 @@ class Signup extends StatelessWidget {
             ],
           ),
         ),
-        // Positioned(
-        //   top: 0,
-        //   right: 0,
-        //   width: 175,
-        //   child: Image.asset("assets/icons/signup_top.png"),
-        //   ),
         Positioned(
           width: 150,
           top: 0,
           child: Image.asset("assets/images/signup_top.png"),
         ),
+        Positioned(
+          width: 75,
+          bottom: 0,
+          child: Image.asset("assets/images/main_bottom.png"),
+          ),
       ],
       )
     );
